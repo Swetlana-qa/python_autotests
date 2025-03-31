@@ -34,4 +34,3 @@ print(response_pokeball.text)'''
 
 response = requests.post(url = f'{URL2}/payments', headers = HEADER, json = BODY_AV)
 print(response.text)
-

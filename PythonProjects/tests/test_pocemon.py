@@ -21,7 +21,7 @@ def test_status_code2():
 
 def test_part (): 
     response_part = requests.get(url=f'{URL}/pokemons', params={"trainer_id":TRAINER_ID})
-    assert response_part.json()["data"][0]["name"] == 'Lola'
+    assert response_part.json()["data"][0]["name"] == 'Holly'
 
 def test_in_pokeball (): 
     response_in_pokeball = requests.get(url=f'{URL}/pokemons', params={"in_pokeball":1})
